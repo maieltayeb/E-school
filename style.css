@@ -1,0 +1,250 @@
+body{
+
+}
+.navbar-nav .nav-link{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #000000;
+}
+.navbar-nav .nav-link.active{
+
+   color:#21B573;
+}
+.navbar-nav .nav-link:hover{
+
+    color:#21B573;
+ }
+.header{
+ 
+    background-color: #F0FFF0;
+}
+
+ .btn{
+    border-radius: 33px;
+    background-color: #21B573;
+    color: #ffffff;
+    padding: 8px 20px;
+
+}
+.header-content-left{
+
+}
+.header-content-left h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+   
+    width: 80%;
+    
+    color: #000000;
+}
+.header-content-left h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FD511A;
+}
+.header-content-left span{
+    color: #21B573;
+}
+.header-content-left p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+
+
+
+color: #6C6B6B;
+}
+.header-content-left .btn{
+    padding: 12px 36px;
+}
+.rates{
+
+}
+.topic{
+
+background-color: #F0FFF0;
+
+}
+.topic:hover{
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    }
+.topic img{
+
+width: 20%;
+}
+.topic h6{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+margin-top: 15px;
+}
+.topic p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+
+color: #585859;
+}
+.course-heading{
+
+}
+.heading h2{
+      font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    
+
+
+
+color: #000000;
+
+    
+   
+}
+.course{
+    background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+padding: 17px 20px;
+}
+.course img{
+
+}
+.course h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top:24px;
+    /* identical to box height */
+    
+    
+    color: #413960;
+}
+.course h6{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #585859;
+}
+.btn-course{
+    padding: .25rem 1.5rem;
+ 
+    
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.course ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+
+    
+}
+.course ul li {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+
+
+color: #585859;
+}
+.course ul li i{
+    
+   padding-right: .3rem;
+}
+
+.testimonial{
+display: flex;
+}
+.testimonial img{
+    width: 20%;
+}
+.testimonial p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+margin-left: 3rem;
+margin-top: 1rem;
+/* or 188% */
+
+
+color: #000000;
+}
+footer{
+    background-color: #282531;
+    color: #F0FFF0;
+}
+.footer-list{
+    margin-left: 6rem;
+}
+.footer-list ul{
+list-style: none;
+
+}
+.footer-list ul li{
+  
+}
+.footer-list ul li:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+
+}
+@media (max-width: 576px) { 
+    .topic ,.course{
+ 
+        margin-top: 1rem;
+    } 
+    .footer-list{
+        margin-left: 0;
+    }
+}
